@@ -1,14 +1,14 @@
 #-------------CUENTA DE TELEGRAM-------------
-API_ID   = 28891042
-CHAT_ID  = -1002236856232
-NUMERO   = "+52 4343113586"
-API_HASD = "ea8c8d3861826dce706fa5a5017b38d2"
-TOKEN    = "7887415954:AAFtY_A4XkG9nEKStYhK-DGp1pCqPTTmHUg" 
+API_ID   = 20230546
+CHAT_ID  = -1002456099586
+NUMERO   = "+18298501406"
+API_HASD = "687aa22188883fd3d995a41c928454fe"
+TOKEN    = "7604550864:AAGhNiRfKWnLc4_TEGrB43p9DIAogtkPyIs"
 
 DEAD = ['❌']
 #--------------PALABRAS CLAVES PARA EL SCAM---------------
 APROVED = [
-    ' CVV2 Mismatch'
+    ' CVV2 Mismatch',
     'Approved',
     'Charged $1',
     'Transaction approved.0 - Authorised',
@@ -39,7 +39,7 @@ APROVED = [
     'CVV2 Mismatch',
     'Security code was not matched by the processor',
     'Charged $5.31',
-    'AVS check failed CVV: N | AVS: N'
+    'AVS check failed CVV: N | AVS: N',
     'Not Funds \ Transaction Normal - Insufficient Funds',
     "Your card's security code is incorrect.",
     'Verified',
@@ -53,30 +53,26 @@ APROVED = [
     'APPROVED! ✅',
     'APPROVED AUTH✅',
     'APPROVED',
-    '𝒔𝒕𝒂𝒕𝒖𝒔 = 𝒔𝒖𝒄𝒄𝒆𝒆𝒅𝒆𝒅 '
-    ' ↯ [ insufficient funds ✅ ]'
+    '𝒔𝒕𝒂𝒕𝒖𝒔 = 𝒔𝒖𝒄𝒄𝒆𝒆𝒅𝒆𝒅 ',
+    ' ↯ [ insufficient funds ✅ ]',
+    'insufficient funds ✅',
     'insufficient funds ✅'
-    'insufficient funds ✅'
-    ]
+]
 
 #--------------PLANTILLA DEL SCRAPPER--------------
 
-TEXT = '''[⌁] 𝗡𝗲𝘄 𝗖𝗮𝗿𝗱  <code>{}|{}|{}</code>
+TEXT = '''[⌁] TM 𝗡𝗲𝘄 𝗖𝗮𝗿𝗱  <code>{}|{}|{}</code>
 
  𝗖𝗰 :         <code>{}</code>
  𝗙𝗲𝗰𝗵𝗮 :   <code>{}/{}</code>
- 𝗖𝘃𝘃 :        <code>{}</code>
+ 𝗖𝘃𝗩 :        <code>{}</code>
 
- 𝗘𝘅𝘁𝗿𝗮 :   <code>{}xxxx</code>
  𝗦𝘁𝗮𝘁𝘂𝘀 :  <b>APPROVED! ✅</b>
 
  𝗕𝗿𝗮𝗻𝗱: <code>{} | {}</code>
- 𝗟𝗲𝘃𝗲𝗹: <code>{}</code>
+ 𝗟𝗲𝗩𝗲𝗹: <code>{}</code>
  𝗕𝗮𝗻𝗸: <code>{}</code>
 
  𝗧𝗶𝗺𝗲:   <code>{}(sg)</code>
- 𝗢𝘄𝗻𝗲𝗿 𝗜𝗗:  <code>-7572963291-</code>
- 𝗢𝘄𝗻𝗲𝗿 :  @Umbrlla_Chk'''
-
-
-
+ 𝗢𝘄𝗻𝗲𝗿 𝗜𝗗:  <code>-7142974885-</code>
+ 𝗢𝘄𝗻𝗲𝗿 :  @OneTechPatron'''
