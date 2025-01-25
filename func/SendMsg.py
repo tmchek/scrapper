@@ -7,7 +7,7 @@ class SendMsg:
     def __init__(self):
         self.chat_id = CHAT_ID
         self.token   = TOKEN
-        self.photo   = 'https://imgur.com/a/glNoeSE' #FOTO AL ENVIAR LA IMAGEN
+        self.photo   = 'https://imgur.com/zoAVQvs' #FOTO AL ENVIAR LA IMAGEN
         
     def enviar(self,texto: str = None):
         self.url = 'https://api.telegram.org/bot'+self.token
