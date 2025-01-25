@@ -1,20 +1,18 @@
 import re, os, time
+from func.dates import CHAT_ID,DEAD, APROVED,TEXT
+from func.SendMsg import SendMsg ,scrapp_ccs,TOKEN,chk_bin
 from telethon.sync import TelegramClient, events
-from dotenv import load_dotenv  # Importa la librería dotenv para leer el archivo .env
 
-# Cargar las variables del archivo .env
-load_dotenv()
 
 # Obtener las variables del entorno
-API_ID = os.getenv('API_ID')
-API_HASH = os.getenv('API_HASH')
-PHONE_NUMBER = os.getenv('PHONE_NUMBER')
-VERIFICATION_CODE = os.getenv('VERIFICATION_CODE')
+API_ID = 20230546
+API_HASH = '687aa22188883fd3d995a41c928454fe'
+PHONE_NUMBER = '+18298501406'
 
 client = TelegramClient('new_session', API_ID, API_HASH)
 
 # Iniciar sesión automáticamente con el código de verificación
-client.start(phone=PHONE_NUMBER, code_callback=lambda: VERIFICATION_CODE)
+client.start(phone=PHONE_NUMBER)
 
 @client.on(events.MessageEdited())
 async def handler(event):
@@ -29,7 +27,7 @@ async def handler(event):
             if (re.search(self.RexGex, self.getMsg) and any(live in self.getMsg for live in DEAD) == True): 
                 ccs = scrapp_ccs(self.ScrCss)
                 return '[⌁] - Dead ❌'
-            else:  
+            else:
                 try:
                     if (re.search(self.RexGex, self.getMsg) and any(live in self.getMsg for live in APROVED) == True): 
                         ccs = scrapp_ccs(self.ScrCss)
@@ -53,7 +51,7 @@ async def handler(event):
     ResP = EventMsg().Run()
     print(ResP)
 
-os.system("clear")
+os.system("clear||cls")
 
 print('run scrapp sexo')
 
