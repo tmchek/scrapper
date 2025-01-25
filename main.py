@@ -54,19 +54,7 @@ async def handler(event):
     print(ResP)
 
 os.system("clear")
-banner = """   
- _   _           _              _ _         _____                    
-| | | |         | |            | | |       |_   _|                   
-| | | |_ __ ___ | |__  _ __ ___| | | __ _    | | ___  __ _ _ __ ___  
-| | | | '_ ` _ \| '_ \| '__/ _ \ | |/ _` |   | |/ _ \/ _` | '_ ` _ \ 
-| |_| | | | | | | |_) | | |  __/ | | (_| |   | |  __/ (_| | | | | | |
- \___/|_| |_| |_|_.__/|_|  \___|_|_|\__,_|   \_/\___|\__,_|_| |_| |_|
-                                                                     
-                                                                     
- User:  
- Code by: 
-"""
 
-print(banner)
+print('run scrapp sexo')
 
 client.run_until_disconnected()
